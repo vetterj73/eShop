@@ -18,7 +18,7 @@
     <ProjectReference Include="..\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
+  <ItemGroup> 
     <InternalsVisibleTo Include="Basket.FunctionalTests" />
   </ItemGroup>
 </Project>
