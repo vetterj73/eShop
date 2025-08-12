@@ -10,8 +10,6 @@ public class BasketItem : IValidatableObject
     public int Quantity { get; set; }
     public string PictureUrl { get; set; }
 
-    public string UPCCode { get; set; }
-
     public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
     {
         var results = new List<ValidationResult>();
